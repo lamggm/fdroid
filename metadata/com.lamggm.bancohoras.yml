@@ -12,7 +12,8 @@ Description: |-
   conexão. Quando uma API configurada volta a responder, o aplicativo envia a
   fila pendente e reconcilia os registros usando um identificador estável.
 
-  A versão 0.2.0 adiciona navegação por dias anteriores, gráfico interativo dos
-  últimos sete dias e a lista de marcações da data selecionada.
-CurrentVersion: 0.2.0
-CurrentVersionCode: 2
+  Também é possível navegar por dias anteriores, consultar as marcações logo
+  abaixo do resumo diário e visualizar o gráfico interativo dos últimos sete
+  dias.
+CurrentVersion: 0.2.1
+CurrentVersionCode: 3

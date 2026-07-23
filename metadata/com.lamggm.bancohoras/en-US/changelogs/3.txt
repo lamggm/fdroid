@@ -1,0 +1,2 @@
+Daily punches now appear directly below the worked-time total.
+The weekly chart was moved below the entries and actions.

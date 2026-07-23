@@ -14,7 +14,7 @@
       }
     },
     "address": "https://lamggm.github.io/fdroid/repo",
-    "timestamp": 1784818061378,
+    "timestamp": 1784821211516,
     "categories": {
       "Time": {
         "name": {
@@ -30,7 +30,7 @@
         "categories": [
           "Time"
         ],
-        "lastUpdated": 1784817988268,
+        "lastUpdated": 1784821210098,
         "authorName": "lamggm",
         "name": {
           "en-US": "Banco de Horas"
@@ -39,7 +39,7 @@
           "en-US": "Registre e sincronize marcações de ponto, mesmo sem conexão."
         },
         "description": {
-          "en-US": "Cliente Android nativo para registrar entrada, saída, início e fim de\nintervalo.\n\nAs marcações são salvas primeiro no aparelho e continuam disponíveis sem\nconexão. Quando uma API configurada volta a responder, o aplicativo envia a\nfila pendente e reconcilia os registros usando um identificador estável.\n\nA versão 0.2.0 adiciona navegação por dias anteriores, gráfico interativo dos\núltimos sete dias e a lista de marcações da data selecionada."
+          "en-US": "Cliente Android nativo para registrar entrada, saída, início e fim de\nintervalo.\n\nAs marcações são salvas primeiro no aparelho e continuam disponíveis sem\nconexão. Quando uma API configurada volta a responder, o aplicativo envia a\nfila pendente e reconcilia os registros usando um identificador estável.\n\nTambém é possível navegar por dias anteriores, consultar as marcações logo\nabaixo do resumo diário e visualizar o gráfico interativo dos últimos sete\ndias."
         },
         "icon": {
           "en-US": {
@@ -56,6 +56,41 @@
         "preferredSigner": "2189b96f5921927877903357ba1f14dd07037216e66e15a01ec1012299724472"
       },
       "versions": {
+        "c0045979ee81bf53959c314df9514778948baf9b87e00ac9b24d373683025c2a": {
+          "added": 1784821210098,
+          "file": {
+            "name": "/com.lamggm.bancohoras_3.apk",
+            "sha256": "c0045979ee81bf53959c314df9514778948baf9b87e00ac9b24d373683025c2a",
+            "size": 8290697
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "0.2.1",
+            "versionCode": 3,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 37
+            },
+            "signer": {
+              "sha256": [
+                "2189b96f5921927877903357ba1f14dd07037216e66e15a01ec1012299724472"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "com.lamggm.bancohoras.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        },
         "ab8351704f9bc13bbdad71fecf4a6c753c3f6cfc06c54b866c40bdb8cced9f08": {
           "added": 1784817988268,
           "file": {

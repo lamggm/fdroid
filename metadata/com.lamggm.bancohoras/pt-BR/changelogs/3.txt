@@ -1,0 +1,2 @@
+As marcações do dia agora aparecem logo abaixo do total trabalhado.
+O gráfico semanal foi movido para depois das entradas e ações.
