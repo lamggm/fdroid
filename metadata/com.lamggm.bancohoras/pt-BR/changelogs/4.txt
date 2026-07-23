@@ -1,0 +1,3 @@
+Novo painel escuro inspirado na versão web.
+Agora é possível inserir, editar e excluir marcações ajustando tipo, data e hora.
+Correções e exclusões sincronizadas preservam a auditoria da API.

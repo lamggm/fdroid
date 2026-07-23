@@ -1,0 +1,3 @@
+New dark dashboard inspired by the web version.
+Punches can now be added, edited, and deleted with adjustable type, date, and time.
+Synced corrections and deletions preserve the API audit trail.

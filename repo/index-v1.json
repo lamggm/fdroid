@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1784821211516,
+    "timestamp": 1784824977057,
     "version": 30000,
     "name": "lamggm",
     "icon": "icon.png",
@@ -17,35 +17,65 @@
       "categories": [
         "Time"
       ],
-      "suggestedVersionName": "0.2.1",
-      "suggestedVersionCode": "3",
-      "description": "Cliente Android nativo para registrar entrada, sa\u00edda, in\u00edcio e fim de\nintervalo.\n\nAs marca\u00e7\u00f5es s\u00e3o salvas primeiro no aparelho e continuam dispon\u00edveis sem\nconex\u00e3o. Quando uma API configurada volta a responder, o aplicativo envia a\nfila pendente e reconcilia os registros usando um identificador est\u00e1vel.\n\nTamb\u00e9m \u00e9 poss\u00edvel navegar por dias anteriores, consultar as marca\u00e7\u00f5es logo\nabaixo do resumo di\u00e1rio e visualizar o gr\u00e1fico interativo dos \u00faltimos sete\ndias.",
+      "suggestedVersionName": "0.3.0",
+      "suggestedVersionCode": "4",
+      "description": "Cliente Android nativo para registrar entrada, sa\u00edda, in\u00edcio e fim de\nintervalo.\n\nAs marca\u00e7\u00f5es s\u00e3o salvas primeiro no aparelho e continuam dispon\u00edveis sem\nconex\u00e3o. Quando uma API configurada volta a responder, o aplicativo envia a\nfila pendente e reconcilia os registros usando um identificador est\u00e1vel.\n\nTamb\u00e9m \u00e9 poss\u00edvel navegar por dias anteriores, consultar as marca\u00e7\u00f5es logo\nabaixo do resumo di\u00e1rio e visualizar o gr\u00e1fico interativo dos \u00faltimos sete\ndias.\n\nO painel escuro permite inserir, corrigir e excluir marca\u00e7\u00f5es, ajustando\ntipo, data e hora. Altera\u00e7\u00f5es sincronizadas preservam a auditoria da API.",
       "license": "Unknown",
       "name": "Banco de Horas",
       "summary": "Registre e sincronize marca\u00e7\u00f5es de ponto, mesmo sem conex\u00e3o.",
       "added": 1784814217911,
       "packageName": "com.lamggm.bancohoras",
-      "lastUpdated": 1784821210098,
+      "lastUpdated": 1784824975822,
       "localized": {
         "en-US": {
           "description": "Native Android client for recording clock-in, clock-out, and break events.\n\nPunches are saved on the device first and remain available offline. When a\nconfigured API is reachable again, the app uploads the pending queue and\nreconciles records using a stable identifier.\n",
           "icon": "icon_GWA_FveUDa_7C8au3PkpBK276c8KxXHda1fJJJ7bbs4=.png",
           "name": "Banco de Horas",
           "summary": "Record and synchronize time punches, even without a connection.",
-          "whatsNew": "Daily punches now appear directly below the worked-time total.\nThe weekly chart was moved below the entries and actions.\n"
+          "whatsNew": "New dark dashboard inspired by the web version.\nPunches can now be added, edited, and deleted with adjustable type, date, and time.\nSynced corrections and deletions preserve the API audit trail.\n"
         },
         "pt-BR": {
           "description": "Cliente Android nativo para registrar entrada, sa\u00edda, in\u00edcio e fim de\nintervalo.\n\nAs marca\u00e7\u00f5es s\u00e3o salvas primeiro no aparelho e continuam dispon\u00edveis sem\nconex\u00e3o. Quando uma API configurada volta a responder, o aplicativo envia a\nfila pendente e reconcilia os registros usando um identificador est\u00e1vel.\n",
           "icon": "icon_GWA_FveUDa_7C8au3PkpBK276c8KxXHda1fJJJ7bbs4=.png",
           "name": "Banco de Horas",
           "summary": "Registre e sincronize marca\u00e7\u00f5es de ponto, mesmo sem conex\u00e3o.",
-          "whatsNew": "As marca\u00e7\u00f5es do dia agora aparecem logo abaixo do total trabalhado.\nO gr\u00e1fico semanal foi movido para depois das entradas e a\u00e7\u00f5es.\n"
+          "whatsNew": "Novo painel escuro inspirado na vers\u00e3o web.\nAgora \u00e9 poss\u00edvel inserir, editar e excluir marca\u00e7\u00f5es ajustando tipo, data e hora.\nCorre\u00e7\u00f5es e exclus\u00f5es sincronizadas preservam a auditoria da API.\n"
         }
       }
     }
   ],
   "packages": {
     "com.lamggm.bancohoras": [
+      {
+        "added": 1784824975822,
+        "apkName": "com.lamggm.bancohoras_4.apk",
+        "hash": "997266fb8d43a1ad300ff1ef62d204e5775cb1381f1a2daa4c3e7572c50a5a66",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.lamggm.bancohoras",
+        "sig": "07c012843366f4b0c51f7992abdd0544",
+        "signer": "2189b96f5921927877903357ba1f14dd07037216e66e15a01ec1012299724472",
+        "size": 8307085,
+        "targetSdkVersion": 37,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "com.lamggm.bancohoras.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 4,
+        "versionName": "0.3.0"
+      },
       {
         "added": 1784821210098,
         "apkName": "com.lamggm.bancohoras_3.apk",
