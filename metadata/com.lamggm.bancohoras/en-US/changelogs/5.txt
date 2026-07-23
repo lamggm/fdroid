@@ -1,0 +1,3 @@
+Fixed incorrect daily totals when the API returns timestamps without a timezone.
+Punch time now comes from the event itself instead of the server receipt time.
+Added regression tests for daily hour calculations.

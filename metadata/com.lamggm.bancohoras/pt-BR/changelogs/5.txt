@@ -1,0 +1,3 @@
+Corrige totais diários incorretos quando a API retorna timestamps sem fuso horário.
+O horário passa a vir da própria marcação, e não do recebimento pelo servidor.
+Adiciona testes de regressão para o cálculo das horas diárias.

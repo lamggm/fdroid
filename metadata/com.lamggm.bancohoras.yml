@@ -18,5 +18,5 @@ Description: |-
 
   O painel escuro permite inserir, corrigir e excluir marcações, ajustando
   tipo, data e hora. Alterações sincronizadas preservam a auditoria da API.
-CurrentVersion: 0.3.0
-CurrentVersionCode: 4
+CurrentVersion: 0.3.1
+CurrentVersionCode: 5
