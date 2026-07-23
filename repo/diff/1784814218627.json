@@ -1,0 +1,52 @@
+{
+  "repo": {
+    "timestamp": 1784818061378
+  },
+  "packages": {
+    "com.lamggm.bancohoras": {
+      "metadata": {
+        "lastUpdated": 1784817988268,
+        "description": {
+          "en-US": "Cliente Android nativo para registrar entrada, saída, início e fim de\nintervalo.\n\nAs marcações são salvas primeiro no aparelho e continuam disponíveis sem\nconexão. Quando uma API configurada volta a responder, o aplicativo envia a\nfila pendente e reconcilia os registros usando um identificador estável.\n\nA versão 0.2.0 adiciona navegação por dias anteriores, gráfico interativo dos\núltimos sete dias e a lista de marcações da data selecionada."
+        }
+      },
+      "versions": {
+        "ab8351704f9bc13bbdad71fecf4a6c753c3f6cfc06c54b866c40bdb8cced9f08": {
+          "added": 1784817988268,
+          "file": {
+            "name": "/com.lamggm.bancohoras_2.apk",
+            "sha256": "ab8351704f9bc13bbdad71fecf4a6c753c3f6cfc06c54b866c40bdb8cced9f08",
+            "size": 8290701
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "0.2.0",
+            "versionCode": 2,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 37
+            },
+            "signer": {
+              "sha256": [
+                "2189b96f5921927877903357ba1f14dd07037216e66e15a01ec1012299724472"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "com.lamggm.bancohoras.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

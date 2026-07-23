@@ -5,31 +5,54 @@
   "archivePolicy0": [],
   "commandLine": [
     "/home/vagrant/fdroidserver/fdroid update",
-    "--pretty",
-    "--verbose"
+    "--pretty"
   ],
   "disabled": [],
-  "endTimestamp": 1784814221397,
+  "endTimestamp": 1784818063957,
   "failedBuilds": {},
   "fdroiddata": {
     "commitId": null,
     "isDirty": false,
     "modifiedFiles": [],
     "untrackedFiles": [
+      "BancodeHoras.apk",
       "config.yml",
       "metadata/com.lamggm.bancohoras.yml",
       "metadata/com.lamggm.bancohoras/en-US/changelogs/1.txt",
+      "metadata/com.lamggm.bancohoras/en-US/changelogs/2.txt",
       "metadata/com.lamggm.bancohoras/en-US/description.txt",
       "metadata/com.lamggm.bancohoras/en-US/images/icon.png",
       "metadata/com.lamggm.bancohoras/en-US/summary.txt",
       "metadata/com.lamggm.bancohoras/en-US/title.txt",
       "metadata/com.lamggm.bancohoras/pt-BR/changelogs/1.txt",
+      "metadata/com.lamggm.bancohoras/pt-BR/changelogs/2.txt",
       "metadata/com.lamggm.bancohoras/pt-BR/description.txt",
       "metadata/com.lamggm.bancohoras/pt-BR/images/icon.png",
       "metadata/com.lamggm.bancohoras/pt-BR/summary.txt",
       "metadata/com.lamggm.bancohoras/pt-BR/title.txt",
+      "repo/com.lamggm.bancohoras/en-US/icon.png",
+      "repo/com.lamggm.bancohoras/en-US/icon_GWA_FveUDa_7C8au3PkpBK276c8KxXHda1fJJJ7bbs4=.png",
+      "repo/com.lamggm.bancohoras/pt-BR/icon.png",
+      "repo/com.lamggm.bancohoras/pt-BR/icon_GWA_FveUDa_7C8au3PkpBK276c8KxXHda1fJJJ7bbs4=.png",
       "repo/com.lamggm.bancohoras_1.apk",
-      "repo/icons/icon.png"
+      "repo/com.lamggm.bancohoras_2.apk",
+      "repo/diff/1784814218627.json",
+      "repo/entry.jar",
+      "repo/entry.json",
+      "repo/icons/icon.png",
+      "repo/index-v1.jar",
+      "repo/index-v1.json",
+      "repo/index-v2.json",
+      "repo/index.css",
+      "repo/index.html",
+      "repo/index.jar",
+      "repo/index.png",
+      "repo/index.xml",
+      "repo/status/running.json",
+      "repo/status/update.json",
+      "tmp/apkcache.json",
+      "tmp/repo_1784814218627.json",
+      "tmp/repo_1784817988903.json"
     ]
   },
   "fdroidserver": {
@@ -48,14 +71,14 @@
     "com.lamggm.bancohoras"
   ],
   "stages": {
-    "delete_disabled_builds": 1784814217911,
-    "index.make repo": 1784814218627,
-    "prepare_apps repo": 1784814218525,
-    "process_apks": 1784814217911,
-    "read_added_date_from_all_apks": 1784814218524,
-    "remove_apks": 1784814218524,
-    "scan_repo_files": 1784814218523
+    "delete_disabled_builds": 1784818061373,
+    "index.make repo": 1784818061377,
+    "prepare_apps repo": 1784818061375,
+    "process_apks": 1784818061373,
+    "read_added_date_from_all_apks": 1784818061375,
+    "remove_apks": 1784818061374,
+    "scan_repo_files": 1784818061374
   },
-  "startTimestamp": 1784814217000,
+  "startTimestamp": 1784818061000,
   "subcommand": "update"
 }

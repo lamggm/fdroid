@@ -1,0 +1,3 @@
+Navegação por dias anteriores.
+Gráfico interativo dos últimos sete dias.
+Lista de entradas, intervalos e saídas da data selecionada.

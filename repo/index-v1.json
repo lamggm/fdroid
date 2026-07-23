@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1784814218627,
+    "timestamp": 1784818061378,
     "version": 30000,
     "name": "lamggm",
     "icon": "icon.png",
@@ -17,35 +17,65 @@
       "categories": [
         "Time"
       ],
-      "suggestedVersionName": "0.1.0",
-      "suggestedVersionCode": "1",
-      "description": "Cliente Android nativo para registrar entrada, sa\u00edda, in\u00edcio e fim de\nintervalo.\n\nAs marca\u00e7\u00f5es s\u00e3o salvas primeiro no aparelho e continuam dispon\u00edveis sem\nconex\u00e3o. Quando uma API configurada volta a responder, o aplicativo envia a\nfila pendente e reconcilia os registros usando um identificador est\u00e1vel.",
+      "suggestedVersionName": "0.2.0",
+      "suggestedVersionCode": "2",
+      "description": "Cliente Android nativo para registrar entrada, sa\u00edda, in\u00edcio e fim de\nintervalo.\n\nAs marca\u00e7\u00f5es s\u00e3o salvas primeiro no aparelho e continuam dispon\u00edveis sem\nconex\u00e3o. Quando uma API configurada volta a responder, o aplicativo envia a\nfila pendente e reconcilia os registros usando um identificador est\u00e1vel.\n\nA vers\u00e3o 0.2.0 adiciona navega\u00e7\u00e3o por dias anteriores, gr\u00e1fico interativo dos\n\u00faltimos sete dias e a lista de marca\u00e7\u00f5es da data selecionada.",
       "license": "Unknown",
       "name": "Banco de Horas",
       "summary": "Registre e sincronize marca\u00e7\u00f5es de ponto, mesmo sem conex\u00e3o.",
       "added": 1784814217911,
       "packageName": "com.lamggm.bancohoras",
-      "lastUpdated": 1784814217911,
+      "lastUpdated": 1784817988268,
       "localized": {
         "en-US": {
           "description": "Native Android client for recording clock-in, clock-out, and break events.\n\nPunches are saved on the device first and remain available offline. When a\nconfigured API is reachable again, the app uploads the pending queue and\nreconciles records using a stable identifier.\n",
           "icon": "icon_GWA_FveUDa_7C8au3PkpBK276c8KxXHda1fJJJ7bbs4=.png",
           "name": "Banco de Horas",
           "summary": "Record and synchronize time punches, even without a connection.",
-          "whatsNew": "Initial Android release with offline-first punches and optional API sync.\n"
+          "whatsNew": "Navigation through previous days.\nInteractive chart for the last seven days.\nList of clock-ins, breaks, and clock-outs for the selected date.\n"
         },
         "pt-BR": {
           "description": "Cliente Android nativo para registrar entrada, sa\u00edda, in\u00edcio e fim de\nintervalo.\n\nAs marca\u00e7\u00f5es s\u00e3o salvas primeiro no aparelho e continuam dispon\u00edveis sem\nconex\u00e3o. Quando uma API configurada volta a responder, o aplicativo envia a\nfila pendente e reconcilia os registros usando um identificador est\u00e1vel.\n",
           "icon": "icon_GWA_FveUDa_7C8au3PkpBK276c8KxXHda1fJJJ7bbs4=.png",
           "name": "Banco de Horas",
           "summary": "Registre e sincronize marca\u00e7\u00f5es de ponto, mesmo sem conex\u00e3o.",
-          "whatsNew": "Primeira vers\u00e3o Android com marca\u00e7\u00f5es offline e sincroniza\u00e7\u00e3o opcional.\n"
+          "whatsNew": "Navega\u00e7\u00e3o por dias anteriores.\nGr\u00e1fico interativo dos \u00faltimos sete dias.\nLista de entradas, intervalos e sa\u00eddas da data selecionada.\n"
         }
       }
     }
   ],
   "packages": {
     "com.lamggm.bancohoras": [
+      {
+        "added": 1784817988268,
+        "apkName": "com.lamggm.bancohoras_2.apk",
+        "hash": "ab8351704f9bc13bbdad71fecf4a6c753c3f6cfc06c54b866c40bdb8cced9f08",
+        "hashType": "sha256",
+        "minSdkVersion": 26,
+        "nativecode": [
+          "arm64-v8a",
+          "armeabi-v7a",
+          "x86",
+          "x86_64"
+        ],
+        "packageName": "com.lamggm.bancohoras",
+        "sig": "07c012843366f4b0c51f7992abdd0544",
+        "signer": "2189b96f5921927877903357ba1f14dd07037216e66e15a01ec1012299724472",
+        "size": 8290701,
+        "targetSdkVersion": 37,
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "com.lamggm.bancohoras.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION",
+            null
+          ]
+        ],
+        "versionCode": 2,
+        "versionName": "0.2.0"
+      },
       {
         "added": 1784814217911,
         "apkName": "com.lamggm.bancohoras_1.apk",

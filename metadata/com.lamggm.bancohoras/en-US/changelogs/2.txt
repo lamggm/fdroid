@@ -1,0 +1,3 @@
+Navigation through previous days.
+Interactive chart for the last seven days.
+List of clock-ins, breaks, and clock-outs for the selected date.
