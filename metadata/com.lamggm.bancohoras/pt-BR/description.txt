@@ -1,0 +1,6 @@
+Cliente Android nativo para registrar entrada, saída, início e fim de
+intervalo.
+
+As marcações são salvas primeiro no aparelho e continuam disponíveis sem
+conexão. Quando uma API configurada volta a responder, o aplicativo envia a
+fila pendente e reconcilia os registros usando um identificador estável.

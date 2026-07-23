@@ -1,0 +1,15 @@
+Categories:
+  - Time
+License: Unknown
+AuthorName: lamggm
+Name: Banco de Horas
+Summary: Registre e sincronize marcações de ponto, mesmo sem conexão.
+Description: |-
+  Cliente Android nativo para registrar entrada, saída, início e fim de
+  intervalo.
+
+  As marcações são salvas primeiro no aparelho e continuam disponíveis sem
+  conexão. Quando uma API configurada volta a responder, o aplicativo envia a
+  fila pendente e reconcilia os registros usando um identificador estável.
+CurrentVersion: 0.1.0
+CurrentVersionCode: 1

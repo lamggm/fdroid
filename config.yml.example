@@ -1,0 +1,10 @@
+---
+repo_url: https://lamggm.github.io/fdroid/repo
+repo_name: lamggm
+repo_description: Aplicativos Android publicados oficialmente por lamggm.
+repo_keyalias: fdroid
+keystore: /caminho/privado/fdroid-repo.jks
+keystorepass: SUBSTITUA_FORA_DO_GIT
+keypass: SUBSTITUA_FORA_DO_GIT
+keydname: CN=lamggm F-Droid Repo, O=lamggm
+archive_older: 0

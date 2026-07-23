@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <title>F-Droid · lamggm</title>
+  <style>
+    :root {
+      font-family: system-ui, sans-serif;
+      color: #172033;
+      background: #eff6ff;
+    }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      display: grid;
+      place-items: center;
+    }
+    main {
+      width: min(42rem, calc(100% - 2rem));
+      box-sizing: border-box;
+      padding: 2rem;
+      border: 1px solid #bfdbfe;
+      border-radius: 1.5rem;
+      background: #fff;
+      box-shadow: 0 1rem 3rem rgb(37 99 235 / 12%);
+    }
+    h1 {
+      margin-top: 0;
+    }
+    code {
+      display: block;
+      overflow-wrap: anywhere;
+      padding: 1rem;
+      border-radius: .75rem;
+      background: #172033;
+      color: #f8fafc;
+    }
+    a {
+      color: #1d4ed8;
+      font-weight: 700;
+    }
+    .fingerprint {
+      font-size: .85rem;
+      line-height: 1.5;
+    }
+    .qr {
+      display: block;
+      width: 12rem;
+      max-width: 100%;
+      margin: 1.5rem auto;
+      image-rendering: pixelated;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        color: #e2e8f0;
+        background: #0f172a;
+      }
+      main {
+        border-color: #334155;
+        background: #172033;
+      }
+      code {
+        background: #020617;
+      }
+      a {
+        color: #93c5fd;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Repositório F-Droid de lamggm</h1>
+    <p>Distribuição oficial do aplicativo Banco de Horas.</p>
+    <p>No F-Droid, abra <strong>Configurações → Repositórios</strong> e adicione:</p>
+    <code>https://lamggm.github.io/fdroid/repo</code>
+    <p>
+      <a href="https://fdroid.link/#https://lamggm.github.io/fdroid/repo?fingerprint=622842FD5B3CB80F1E96FA2077BCA0636C5DD4F3C02AAB6ECAB39BE29103BDE8">
+        Abrir o repositório no F-Droid
+      </a>
+    </p>
+    <a href="repo/index.png" aria-label="Ampliar QR Code">
+      <img class="qr" src="repo/index.png" alt="QR Code do repositório F-Droid">
+    </a>
+    <p class="fingerprint">
+      Fingerprint do índice:
+      <strong>622842FD5B3CB80F1E96FA2077BCA0636C5DD4F3C02AAB6ECAB39BE29103BDE8</strong>
+    </p>
+    <p>
+      Código e histórico público deste repositório:
+      <a href="https://github.com/lamggm/fdroid">github.com/lamggm/fdroid</a>.
+    </p>
+  </main>
+</body>
+</html>

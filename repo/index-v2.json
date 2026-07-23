@@ -1,0 +1,97 @@
+{
+  "repo": {
+    "name": {
+      "en-US": "lamggm"
+    },
+    "description": {
+      "en-US": "Aplicativos Android publicados oficialmente por lamggm."
+    },
+    "icon": {
+      "en-US": {
+        "name": "/icons/icon.png",
+        "sha256": "10c2647826bbaaaee357fcb51a36a9a551b41da7e220f628f8f158d390853272",
+        "size": 18354
+      }
+    },
+    "address": "https://lamggm.github.io/fdroid/repo",
+    "timestamp": 1784814218627,
+    "categories": {
+      "Time": {
+        "name": {
+          "en-US": "Time"
+        }
+      }
+    }
+  },
+  "packages": {
+    "com.lamggm.bancohoras": {
+      "metadata": {
+        "added": 1784814217911,
+        "categories": [
+          "Time"
+        ],
+        "lastUpdated": 1784814217911,
+        "authorName": "lamggm",
+        "name": {
+          "en-US": "Banco de Horas"
+        },
+        "summary": {
+          "en-US": "Registre e sincronize marcações de ponto, mesmo sem conexão."
+        },
+        "description": {
+          "en-US": "Cliente Android nativo para registrar entrada, saída, início e fim de\nintervalo.\n\nAs marcações são salvas primeiro no aparelho e continuam disponíveis sem\nconexão. Quando uma API configurada volta a responder, o aplicativo envia a\nfila pendente e reconcilia os registros usando um identificador estável."
+        },
+        "icon": {
+          "en-US": {
+            "name": "/com.lamggm.bancohoras/en-US/icon_GWA_FveUDa_7C8au3PkpBK276c8KxXHda1fJJJ7bbs4=.png",
+            "sha256": "19603f16f7940daffb0bc6aedcf92904adbbe9cf0ac571dd6b57c9249edb6ece",
+            "size": 16952
+          },
+          "pt-BR": {
+            "name": "/com.lamggm.bancohoras/pt-BR/icon_GWA_FveUDa_7C8au3PkpBK276c8KxXHda1fJJJ7bbs4=.png",
+            "sha256": "19603f16f7940daffb0bc6aedcf92904adbbe9cf0ac571dd6b57c9249edb6ece",
+            "size": 16952
+          }
+        },
+        "preferredSigner": "2189b96f5921927877903357ba1f14dd07037216e66e15a01ec1012299724472"
+      },
+      "versions": {
+        "092a6c6d332d9a5c39652791d44e346461ee192fb26e97e76e286436b580ad1f": {
+          "added": 1784814217911,
+          "file": {
+            "name": "/com.lamggm.bancohoras_1.apk",
+            "sha256": "092a6c6d332d9a5c39652791d44e346461ee192fb26e97e76e286436b580ad1f",
+            "size": 8290701
+          },
+          "manifest": {
+            "nativecode": [
+              "arm64-v8a",
+              "armeabi-v7a",
+              "x86",
+              "x86_64"
+            ],
+            "versionName": "0.1.0",
+            "versionCode": 1,
+            "usesSdk": {
+              "minSdkVersion": 26,
+              "targetSdkVersion": 37
+            },
+            "signer": {
+              "sha256": [
+                "2189b96f5921927877903357ba1f14dd07037216e66e15a01ec1012299724472"
+              ]
+            },
+            "usesPermission": [
+              {
+                "name": "android.permission.INTERNET"
+              },
+              {
+                "name": "com.lamggm.bancohoras.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

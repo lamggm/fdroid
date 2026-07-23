@@ -1,0 +1,61 @@
+{
+  "/etc/issue.net": "Debian GNU/Linux 13",
+  "antiFeatures": {},
+  "apksigner": "/usr/bin/apksigner",
+  "archivePolicy0": [],
+  "commandLine": [
+    "/home/vagrant/fdroidserver/fdroid update",
+    "--pretty",
+    "--verbose"
+  ],
+  "disabled": [],
+  "endTimestamp": 1784814221397,
+  "failedBuilds": {},
+  "fdroiddata": {
+    "commitId": null,
+    "isDirty": false,
+    "modifiedFiles": [],
+    "untrackedFiles": [
+      "config.yml",
+      "metadata/com.lamggm.bancohoras.yml",
+      "metadata/com.lamggm.bancohoras/en-US/changelogs/1.txt",
+      "metadata/com.lamggm.bancohoras/en-US/description.txt",
+      "metadata/com.lamggm.bancohoras/en-US/images/icon.png",
+      "metadata/com.lamggm.bancohoras/en-US/summary.txt",
+      "metadata/com.lamggm.bancohoras/en-US/title.txt",
+      "metadata/com.lamggm.bancohoras/pt-BR/changelogs/1.txt",
+      "metadata/com.lamggm.bancohoras/pt-BR/description.txt",
+      "metadata/com.lamggm.bancohoras/pt-BR/images/icon.png",
+      "metadata/com.lamggm.bancohoras/pt-BR/summary.txt",
+      "metadata/com.lamggm.bancohoras/pt-BR/title.txt",
+      "repo/com.lamggm.bancohoras_1.apk",
+      "repo/icons/icon.png"
+    ]
+  },
+  "fdroidserver": {
+    "commitId": "dcb183cdd834f2d7171307d8d7e40d96ee34a752",
+    "isDirty": false,
+    "modifiedFiles": [],
+    "untrackedFiles": []
+  },
+  "jarsigner": "/usr/lib/jvm/java-21-openjdk-amd64/bin/jarsigner",
+  "keytool": "/usr/lib/jvm/java-21-openjdk-amd64/bin/keytool",
+  "needsUpdate": [],
+  "noPackages": [
+    "com.lamggm.bancohoras"
+  ],
+  "noUpdateCheck": [
+    "com.lamggm.bancohoras"
+  ],
+  "stages": {
+    "delete_disabled_builds": 1784814217911,
+    "index.make repo": 1784814218627,
+    "prepare_apps repo": 1784814218525,
+    "process_apks": 1784814217911,
+    "read_added_date_from_all_apks": 1784814218524,
+    "remove_apks": 1784814218524,
+    "scan_repo_files": 1784814218523
+  },
+  "startTimestamp": 1784814217000,
+  "subcommand": "update"
+}

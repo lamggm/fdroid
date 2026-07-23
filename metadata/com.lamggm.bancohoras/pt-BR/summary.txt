@@ -1,0 +1,1 @@
+Registre e sincronize marcações de ponto, mesmo sem conexão.
