@@ -3,3 +3,6 @@ Native Android client for recording clock-in, clock-out, and break events.
 Punches are saved on the device first and remain available offline. When a
 configured API is reachable again, the app uploads the pending queue and
 reconciles records using a stable identifier.
+
+The monthly summary shows total worked time, extra-hour balance, and a financial
+estimate based on the configured salary, workweek, and overtime rate.

@@ -4,3 +4,6 @@ intervalo.
 As marcações são salvas primeiro no aparelho e continuam disponíveis sem
 conexão. Quando uma API configurada volta a responder, o aplicativo envia a
 fila pendente e reconcilia os registros usando um identificador estável.
+
+O resumo mensal mostra o total trabalhado, o banco extra e uma estimativa
+financeira calculada com as configurações de salário, jornada e adicional.

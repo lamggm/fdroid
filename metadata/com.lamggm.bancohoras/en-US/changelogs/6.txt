@@ -1,0 +1,3 @@
+Added a monthly summary with total worked time and extra-hour balance.
+Estimates overtime value using the configured salary, workweek, and overtime rate.
+Places the new card after the punches while preserving the previous order.

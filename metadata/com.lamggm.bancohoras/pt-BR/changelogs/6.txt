@@ -1,0 +1,3 @@
+Adiciona resumo mensal com total trabalhado e banco extra.
+Estima o valor das horas extras usando salário, jornada e adicional configurados.
+Posiciona o novo cartão depois dos pontos, preservando a ordem anterior.
