@@ -12,6 +12,6 @@ short press records a punch on the phone, prevents duplicates, and refreshes
 the list immediately. Through BLE2, the OLED receives today's hours, the
 monthly extra-hour total, and the equivalent value.
 
-Automatic punches are classified by time: the first is clock-in, the last is
-clock-out, and intermediate punches alternate break start and break end, with
-no fixed punch limit.
+Automatic punches are classified by time: the first is clock-in; the following
+punches alternate break start and break end; only even-length sequences end
+with clock-out, with no fixed punch limit.

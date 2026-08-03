@@ -25,10 +25,10 @@ Description: |-
   equivalente.
 
   As marcações automáticas são classificadas pela ordem do horário: a primeira
-  é entrada, a última é saída e as intermediárias alternam saída e volta de
-  intervalo, sem limite fixo de batidas.
+  é entrada; as seguintes alternam saída e volta de intervalo; somente
+  sequências pares terminam em saída, sem limite fixo de batidas.
 
   O painel escuro permite inserir, corrigir e excluir marcações, ajustando
   tipo, data e hora. Alterações sincronizadas preservam a auditoria da API.
-CurrentVersion: 0.4.3
-CurrentVersionCode: 10
+CurrentVersion: 0.4.4
+CurrentVersionCode: 11

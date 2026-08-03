@@ -1,0 +1,2 @@
+Fixes BH-Ponto classification so the punch after a break start is always a break end.
+Clock-out only ends even-length sequences, preserving alternation with no fixed punch limit.

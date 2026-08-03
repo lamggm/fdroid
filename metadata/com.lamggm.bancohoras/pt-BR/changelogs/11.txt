@@ -1,0 +1,2 @@
+Corrige a classificação do BH-Ponto: depois de uma saída para intervalo, a próxima batida é volta do intervalo.
+A saída final só aparece em sequências pares, mantendo a alternância sem limite fixo de marcações.

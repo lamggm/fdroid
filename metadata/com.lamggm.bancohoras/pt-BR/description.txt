@@ -13,6 +13,6 @@ toque curto registra o ponto diretamente no aparelho, evita duplicatas e
 atualiza a lista imediatamente. Pelo protocolo BLE2, a OLED recebe as horas do
 dia, o total extra do mês e o valor equivalente.
 
-As marcações automáticas são classificadas pelo horário: a primeira é entrada,
-a última é saída e as intermediárias alternam saída e volta de intervalo, sem
-limite fixo de batidas.
+As marcações automáticas são classificadas pelo horário: a primeira é entrada;
+as seguintes alternam saída e volta de intervalo; somente sequências pares
+terminam em saída, sem limite fixo de batidas.
