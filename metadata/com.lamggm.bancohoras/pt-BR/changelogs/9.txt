@@ -1,0 +1,3 @@
+Atualiza o acessório BH-Ponto para o protocolo BLE2 com resumo diário, mensal e financeiro.
+Classifica automaticamente as batidas pela ordem do horário, sem limite fixo de marcações.
+Corrige o endereço BLE, a recuperação de pedidos pendentes e a atualização imediata da lista.

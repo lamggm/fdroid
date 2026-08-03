@@ -1,0 +1,3 @@
+Updates the BH-Ponto accessory to BLE2 with daily, monthly, and financial summaries.
+Classifies punches chronologically with no fixed punch limit.
+Fixes BLE addressing, pending request recovery, and immediate list refresh.
