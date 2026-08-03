@@ -1,0 +1,3 @@
+Fixes BH-Ponto BLE pairing across different Android versions.
+Accepts any device name advertising the BH-Ponto service.
+Automatically recovers previously associated addresses when possible.

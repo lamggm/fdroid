@@ -1,0 +1,3 @@
+Corrige a associação BLE do acessório BH-Ponto em diferentes versões do Android.
+Aceita qualquer nome de dispositivo que anuncie o serviço BH-Ponto.
+Recupera automaticamente endereços já associados quando possível.
