@@ -1,0 +1,3 @@
+Integra o acessório ESP32-C3 BH-Ponto por Bluetooth Low Energy.
+Registra a próxima marcação válida mesmo offline, com proteção contra duplicatas.
+Envia horas extras e valor estimado ao acessório e mantém a conexão em segundo plano.

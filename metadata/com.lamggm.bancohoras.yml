@@ -19,7 +19,11 @@ Description: |-
   O resumo mensal mostra o total trabalhado, o banco extra e uma estimativa
   financeira calculada com as configurações de salário, jornada e adicional.
 
+  O acessório BH-Ponto pode ser associado por Bluetooth Low Energy. O botão
+  registra a próxima marcação válida diretamente no SQLite, mesmo offline, e
+  recebe o resumo mensal do celular para exibição na OLED.
+
   O painel escuro permite inserir, corrigir e excluir marcações, ajustando
   tipo, data e hora. Alterações sincronizadas preservam a auditoria da API.
-CurrentVersion: 0.3.2
-CurrentVersionCode: 6
+CurrentVersion: 0.4.0
+CurrentVersionCode: 7

@@ -7,3 +7,7 @@ fila pendente e reconcilia os registros usando um identificador estável.
 
 O resumo mensal mostra o total trabalhado, o banco extra e uma estimativa
 financeira calculada com as configurações de salário, jornada e adicional.
+
+O acessório ESP32-C3 BH-Ponto pode ser associado por Bluetooth Low Energy. O
+botão registra a próxima marcação válida diretamente no aparelho, evita
+duplicatas e recebe o resumo mensal para exibição na OLED.

@@ -6,3 +6,7 @@ reconciles records using a stable identifier.
 
 The monthly summary shows total worked time, extra-hour balance, and a financial
 estimate based on the configured salary, workweek, and overtime rate.
+
+The ESP32-C3 BH-Ponto accessory can be paired over Bluetooth Low Energy. Its
+button records the next valid punch on the phone, prevents duplicates, and
+receives the monthly summary for display on the OLED.

@@ -1,0 +1,3 @@
+Adds Bluetooth Low Energy integration with the ESP32-C3 BH-Ponto accessory.
+Records the next valid punch offline and prevents duplicate retransmissions.
+Sends overtime totals to the accessory and keeps the connection active in the background.
