@@ -1,0 +1,2 @@
+Corrige o resumo BLE2 para enviar ao BH-Ponto o total extra do mês, em vez do total trabalhado.
+Mantém as horas de hoje e o valor estimado alinhados ao banco de horas.

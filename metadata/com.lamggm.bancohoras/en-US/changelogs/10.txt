@@ -1,0 +1,2 @@
+Fixes the BLE2 summary so BH-Ponto receives the monthly extra-hour total instead of total worked time.
+Keeps today's hours and the estimated value aligned with the extra-hour balance.
