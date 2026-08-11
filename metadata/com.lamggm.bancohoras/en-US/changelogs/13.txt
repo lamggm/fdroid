@@ -1,0 +1,2 @@
+Daily report using the activities and cities recorded with time punches.
+Saving an exit automatically requests the report when the server is available.

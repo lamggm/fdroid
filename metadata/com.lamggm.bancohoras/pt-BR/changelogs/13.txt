@@ -1,0 +1,2 @@
+Relatório diário com atividades e cidades registradas nas marcações.
+Ao salvar a saída, o relatório é solicitado automaticamente quando o servidor estiver disponível.
