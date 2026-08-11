@@ -1,0 +1,2 @@
+Selfie, localizacao e descricao opcionais nas marcacoes de ponto.
+Assinatura de release persistente e fluxo de publicacao corrigido.
